@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'et-roman-line';
+    font-family: 'et-book';
     src: url('fonts/et-book-roman-line-figures.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -7,18 +7,56 @@
 }
 
 @font-face {
-    font-family: 'et-bold-line';
-    src: url('/fonts/et-book-bold-line-figures.woff') format('woff');
+    font-family: "et-book";
+    src: url("fonts/et-book-display-italic-old-style-figures.woff") format('woff');
     font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+    font-style: italic
 }
 
+@font-face {
+    font-family: "et-book";
+    src: url("/fonts/et-book-bold-line-figures.woff") format('woff');
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "et-book-roman-old-style";
+    src: url("public/fonts/et-book-roman-old-style-figures.woff") format('woff');
+    font-weight: normal;
+    font-style: normal
+}
 
 body {
-    font-family: 'et-roman-line';
+    font-family: 'et-book';
+    background-color: #fae8da;
+    max-width: 600px;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:40px;
 }
 
 h1 {
-    font-family: 'et-bold-line';
+    font-family: 'et-book';
+    font-weight: normal;
 }
+
+h2 {
+    font-family: 'et-book';
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'et-book';
+    font-weight: normal;
+}
+
+
+  a:hover {
+    color: #fa2422;
+  }
+
+  a:visited {
+    color: #fa2422;
+  }
+  
